@@ -15,15 +15,15 @@
 	<table>
 	<thead>
 		<tr>
-			<th colspan="5" class="oikealle"><span id="takaisin">Takaisin listaukseen</span></th>
+			<th colspan="6" class="oikealle"><span id="takaisin">Takaisin listaukseen</span></th>
 		</tr>
 		<tr>
 				<th>Nimi</th>
 				<th>Merkkimalli</th>
-				<th>Pituus</th>
-				<th>Leveys</th>	
-				<th>Hinta</th>	
-				<th>&nbsp;</th>	
+				<th>Pituus (m)</th>
+				<th>Leveys (m)</th>	
+				<th>Hinta euroa</th>	
+				<th>Hallinta</th>	
 		</tr>
 	</thead>
 	<tbody>

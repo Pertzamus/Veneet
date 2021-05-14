@@ -5,27 +5,27 @@
 <head>
 <meta charset="ISO-8859-1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/Main.css">
 <title>Veneiden listaus</title>
 </head>
 <body>
 	<table id="listaus">
 		<thead>	
 			<tr>
-				<th colspan="5" class="oikealle"><span id="uusiVene">Lisää uusi vene</span></th>
+				<th colspan="6" class="oikealle"><span id="uusiVene">Lisää uusi vene</span></th>
 			</tr>
 			<tr>
-				<th colspan="3" class="oikealle">Hakusana:</th>
+				<th colspan="4" class="oikealle">Hakusana:</th>
 				<th><input type="text" id="hakusana"></th>
 				<th><input type="button" id="hae" value="Hae"></th>
 			</tr>		
 			<tr>
 				<th>Nimi</th>
 				<th>Merkkimalli</th>
-				<th>Pituus</th>
-				<th>Leveys</th>	
-				<th>Hinta</th>	
-				<th>&nbsp;</th>				
+				<th>Pituus (m)</th>
+				<th>Leveys (m)</th>	
+				<th>Hinta euroa</th>	
+				<th>Valinnat</th>				
 			</tr>
 		</thead>
 		<tbody>

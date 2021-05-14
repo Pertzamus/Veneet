@@ -7,7 +7,7 @@
 <script src="scripts/Main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/Main.css">
 <title>Veneen tietojen muutos</title>
 </head>
 <body>
@@ -15,14 +15,14 @@
 	<table class="table">
 		<thead>
 			<tr>
-				<th colspan="5" class="oikealle"><span id="takaisin">Takaisin listaukseen</span></th>
+				<th colspan="6" class="oikealle"><span id="takaisin">Takaisin listaukseen</span></th>
 			</tr>
 			<tr>
 				<th>Nimi</th>
 				<th>Merkkimalli</th>
-				<th>Pituus</th>
-				<th>Leveys</th>
-				<th>Hinta</th>			
+				<th>Pituus (m)</th>
+				<th>Leveys (m)</th>
+				<th>Hinta euroa</th>			
 				<th>Hallinta</th>
 			</tr>
 		</thead>
